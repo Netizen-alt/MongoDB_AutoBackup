@@ -54,7 +54,7 @@ async function backupDb() {
 
 backupDb();
 
-const backupInterval = 11 * 60 *60 *1000; // 1 hour in milliseconds
+const backupInterval = 11 * 60 *60 *1000; // 11 hour in milliseconds
 setInterval(backupDb, backupInterval);
 
 
